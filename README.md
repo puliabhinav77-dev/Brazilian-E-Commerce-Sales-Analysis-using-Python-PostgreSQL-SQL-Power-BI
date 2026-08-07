@@ -159,7 +159,7 @@ The Power BI report provides interactive business intelligence.
 
 # Workflow
 
-![Workflow](workflow.jpg)
+![Workflow](workflow.png)
 
 ---
 
