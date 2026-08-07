@@ -1,0 +1,8 @@
+1. numpy
+2. pandas
+3. seaborn
+4. matplotlib
+5. sqlalchemy
+6. pymysql
+7. urllib.parse
+8. time
