@@ -126,19 +126,19 @@ The Power BI report provides interactive business intelligence.
 1. Found a proper figure on count of late and on time deliveries 
 2. Sighted the seller id who makes the most sales
 3. extracted information on what category takes more time to get delivered
-![Seller Performance and Delivery Logistics](DASHBOARD/Delivery Logistics and Seller Performance.jpg)
+![Seller Performance and Delivery Logistics](DASHBOARD/Delivery_Logistics_and_Seller_Performance.jpg)
 
 ## Product Category and Review Analysis:
 1. Differentiated the products on their freight value
 2. Analysed the sale made by different categories
 3. Examined the average scores for each category
-![Product Category and Review Analysis](Brazilian-E-Commerce-Sales-Analysis-using-Python-PostgreSQL-SQL-Power-BI/DASHBOARD/Product Category and Review Analysis.jpeg)
+![Product Category and Review Analysis](DASHBOARD/Product_Category_and_Review_Analysis.jpg)
 
 ## Sales and Revenue Analysis
 1. Analysed the number of customers by state
 2. Found the most commonly used payment methods
 3. Found the sale made through different payment methods
-![Sales and Revenue Analysis](Brazilian-E-Commerce-Sales-Analysis-using-Python-PostgreSQL-SQL-Power-BI/DASHBOARD/Sales and Revenue Analysis.jpeg) 
+![Sales and Revenue Analysis](DASHBOARD/Sales_and_Revenue_Analysis.jpg) 
 
 ---
 
