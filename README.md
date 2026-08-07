@@ -126,7 +126,7 @@ The Power BI report provides interactive business intelligence.
 1. Found a proper figure on count of late and on time deliveries 
 2. Sighted the seller id who makes the most sales
 3. extracted information on what category takes more time to get delivered
-![Seller Performance and Delivery Logistics](Brazilian-E-Commerce-Sales-Analysis-using-Python-PostgreSQL-SQL-Power-BI/DASHBOARD/Delivery Logistics and Seller Performance.jpeg)
+![Seller Performance and Delivery Logistics](DASHBOARD/Delivery Logistics and Seller Performance.jpg)
 
 ## Product Category and Review Analysis:
 1. Differentiated the products on their freight value
