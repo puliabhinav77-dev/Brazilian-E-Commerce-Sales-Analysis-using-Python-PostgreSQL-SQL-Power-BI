@@ -1,9 +1,6 @@
 
 # Brazilian E-Commerce Data Analysis Project
 
-> **Note:** This README is a professionally structured template based on the uploaded project artifacts (Python notebooks, SQL workbook, and Power BI dashboard). It documents the workflow, architecture, and implementation. You can further customize repository links and screenshots.
-
----
 
 # Overview
 
