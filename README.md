@@ -4,13 +4,13 @@
 
 # Overview
 
-This project analyzes the Brazilian Olist E-Commerce dataset using Python, SQL, PostgreSQL, and Power BI. The objective is to transform raw transactional data into actionable business insights through data profiling, cleaning, database integration, SQL analytics, and interactive dashboards.
+This project analyzes the Brazilian Olist E-Commerce dataset using Python, MySQL, and Power BI. The objective is to transform raw uncleaned data into actionable business insights through data profiling, cleaning, database integration, SQL analytics, and interactive dashboards.
 
 ## Objectives
 
 - Profile and clean raw datasets.
 - Build a relational database.
-- Perform exploratory data analysis.
+- Perform exploratory data analysis (EDA).
 - Answer business questions using SQL.
 - Build an executive Power BI dashboard.
 - Generate insights on sales, customers, sellers, products, logistics, and reviews.
@@ -41,7 +41,7 @@ Purpose:
 - Prepare data for storage and analysis.
 
 Typical operations include:
-- Importing pandas, numpy and SQLAlchemy.
+- Importing pandas, numpy and PyMySQL.
 - Reading CSV files.
 - Using info(), describe(), head(), isnull(), duplicated().
 - Cleaning inconsistent values.
@@ -52,11 +52,11 @@ Reliable analytics begin with high-quality data. This notebook ensures downstrea
 
 ---
 
-## Notebook 2 – appending file to DB.ipynb
+## Notebook 2 – appending files
 
 Purpose:
-- Establish a SQLAlchemy database connection.
-- Upload cleaned DataFrames into mySQL.
+- Establish a PyMySQL database connection.
+- Upload cleaned DataFrames into MySQL.
 - Create tables.
 - Automate loading.
 
@@ -122,35 +122,38 @@ Each query aggregates transactional data into decision-ready metrics.
 
 The Power BI report provides interactive business intelligence.
 
-Expected components include:
-- KPI cards
-- Revenue
-- Orders
-- Customers
-- Sellers
-- Category performance
-- Geographic analysis
-- Delivery metrics
-- Filters and slicers
-- Drill-down capability
+## Seller Performance and Delivery Logistics :
+1. Found a proper figure on count of late and on time deliveries 
+2. Sighted the seller id who makes the most sales
+3. extracted information on what category takes more time to get delivered
+![Seller Performance and Delivery Logistics] (DASHBOARD/Delivery Logistics and Seller Performance.jpg)
 
-Dashboard users can filter results by date, state, seller, and product category.
+## Product Category and Review Analysis:
+1. Differentiated the products on their freight value
+2. Analysed the sale made by different categories
+3. Examined the average scores for each category
+![Product Category and Review Analysis] (DASHBOARD/Product Category and Review Analysis.jpg)
+
+## Sales and Revenue Analysis
+1. Analysed the number of customers by state
+2. Found the most commonly used payment methods
+3. Found the sale made through different payment methods
+![Sales and Revenue Analysis] (DASHBOARD/Sales and Revenue Analysis.jpg) 
 
 ---
 
 # Technology Stack
 
+- VS Code
 - Python
 - Pandas
 - NumPy
-- SQLAlchemy
-- PostgreSQL
-- SQL
-- Jupyter Notebook
+- PyMySQL
+- MySQL
 - Power BI
 - Matplotlib
 - Seaborn
-- VS Code
+
 
 ---
 
@@ -176,7 +179,7 @@ SQL Analysis
 
 ↓
 
-EDA
+Exploratory Data Analysis
 
 ↓
 
@@ -200,6 +203,19 @@ The project enables analysis of:
 - Freight costs
 - Delivery delays
 - Customer satisfaction
+
+---
+
+## Insights
+
+1. Most of the sellers are assisted to provide credit card feature in order to let customers pay
+2. Sao Paulo had more number of customers, so the sellers are supposed to concentrate more in the area
+3. Sao Paulo had more fast and late deliveries at the same time, so the sellers are supposed to concentrate more in delivery logistics
+4. The city Novo Brazil is taking more days too deliver, which needs a significant improvement in delivery logistics
+5. Sirjii, iomere, sao patricio are the cities where the delivery performance was fantastic
+6. Health and Beauty is the top category on bringing up high sales
+7. Since computers and hardware components are delivered with outmost security and safety it's requiring more freight value
+8. The average highest reviews are recorded in the entertainment category which is around 4.67
 
 ---
 
