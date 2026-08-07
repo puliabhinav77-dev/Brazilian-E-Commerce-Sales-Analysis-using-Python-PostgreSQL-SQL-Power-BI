@@ -159,35 +159,7 @@ The Power BI report provides interactive business intelligence.
 
 # Workflow
 
-Raw CSV Files
-
-↓
-
-Data Profiling
-
-↓
-
-Data Cleaning
-
-↓
-
-Database Loading
-
-↓
-
-SQL Analysis
-
-↓
-
-Exploratory Data Analysis
-
-↓
-
-Power BI Dashboard
-
-↓
-
-Business Insights
+![Workflow](workflow.jpg)
 
 ---
 
